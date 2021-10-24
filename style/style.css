@@ -1,0 +1,47 @@
+.sidebar a:link,
+.sidebar a:visited {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+}
+
+.sidebar {
+    background-color: rgb(68, 68, 248);
+    float: left;
+    width: 15.8%;
+    height: 46vmax;
+    padding-left: 10px;
+}
+
+.head {
+    width: 900px;
+    margin-left: 300px;
+    padding-top: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* .pagination {
+    display: inline-block;
+} */
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
